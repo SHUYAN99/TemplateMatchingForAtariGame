@@ -13,14 +13,19 @@ Run the Python code.
 ``` 
 python template_match.py
 ``` 
-The program will output the coordinates stating where are the vehicles, and mark them with bounding boxes.
+The program outputs the a lists of coordinates stating where are the vehicles boundaries given colors as signals, and marks them with bounding boxes. 
+
+[[28, 33, 35, 39], [-1, -1, -1, -1], [60, 57, 67, 63], [76, 86, 83, 93], [92, 16, 99, 21], [108, 140, 115, 145], [124, 68, 131, 75], [140, 98, 147, 104], [156, 33, 163, 39], [172, 122, 179, 128], [96, 44, 101, 49]]
+##### BEFORE
+![alt text](https://github.com/SHUYAN99/TemplateMatchingForAtariGame/blob/master/RZ_2464601_4625.png?raw=true)
+
+##### AFTER
+![alt text](https://github.com/SHUYAN99/TemplateMatchingForAtariGame/blob/master/RESULT_4625.png?raw=true)
+
+
 
 # Data source
 Data is at: https://zenodo.org/record/2603190#.XXpzEnUrK90
-Get game name and trial ID in excel file;
-download corresponding .tar.bz2 file from the list.
-e.g., https://zenodo.org/record/2603190/files/55_RZ_2464601_Aug-11-10-18-09.tar.bz2?download=1
 
-Agorithm should output 2 things:
-objectID (arbitrary)
-object position (x_upperleft,y_upperleft, x_lowerright, y_lowerright)
+The demo picture is from: https://zenodo.org/record/2603190/files/55_RZ_2464601_Aug-11-10-18-09.tar.bz2?download=1.tar.bz2 \
+There are 17286 screenshots of the Freeway game in this tar, with which the program written could be used to "box" the vehicles.
