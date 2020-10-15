@@ -13,7 +13,7 @@ Run the Python code.
 ``` 
 python template_match.py
 ``` 
-The program outputs the a lists of coordinates stating where are the vehicles boundaries given colors as signals, and marks them with bounding boxes. 
+The program outputs the a lists of coordinates stating where are the vehicle boundaries given colors as signals, and marks them with bounding boxes. 
 
 [[28, 33, 35, 39], [44, 122, 51, 128], [60, 57, 67, 63], [76, 86, 83, 93], [92, 16, 99, 21], [108, 140, 115, 145], [124, 68, 131, 75], [140, 98, 147, 104], [156, 33, 163, 39], [172, 122, 179, 128], [96, 44, 101, 49]]
 ##### BEFORE
